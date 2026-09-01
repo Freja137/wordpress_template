@@ -25,4 +25,10 @@ function university_features() {
 
 add_action('after_setup_theme', 'university_features');
 
+function cars_size() {
+    add_image_size('car-size', 800, 600, true);
+}
+
+add_action('after_setup_theme', 'cars_size');
+
 ?>
